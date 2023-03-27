@@ -1,0 +1,117 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* journal component */
+body{
+  /* margin-top: 10%; */
+}
+.journal {
+  display: block;
+  box-sizing: border-box;
+  width: 848px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.49);
+  opacity: 0.7;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 1%;
+  font-family: Livvic;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  line-height: 18px;
+}
+
+.date {
+  box-sizing: border-box;
+  width: 150px;
+  height: 30px;
+  background: rgba(92, 165, 139, 0.9);
+  border: 1px solid rgba(92, 165, 139, 0.76);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  padding: 5px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+
+.title {
+  width: 248px;
+  height: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+  color: rgba(92, 165, 139, 0.83);
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.save-btn {
+  box-sizing: border-box;
+  width: 90px;
+  height: 30px;
+  font-family: "JetBrains Mono";
+  background: #ffffff;
+  border: 1px solid rgba(92, 165, 139, 0.83);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.07em;
+}
+
+.add-btn {
+  box-sizing: border-box;
+  width: 195px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(92, 165, 139, 0.83);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 1%;
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 202px;
+  margin-right: 207px;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none; /*remove the resize handle on the bottom right*/
+}
